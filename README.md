@@ -30,22 +30,10 @@ Input → Buffer → {Bass, Mid, Treble filters} → Level pots → Summing amp 
 
 Full derivations, transfer functions, and component values are in [`Report.pdf`](./Report.pdf).
 
-## Repo structure
 
-```
-.
-├── LTSpice-Sim/     # LTspice schematics and simulation files
-├── Figures/         # Block diagrams and simulation plots used in the report
-└── Report.pdf       # Full writeup: theory, design, and simulation results
-```
 
-## Running the simulation
 
-1. Install [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html) (free, Windows/macOS).
-2. Clone the repo and open the schematic(s) in `LTSpice-Sim/`.
-3. Run the AC analysis to reproduce the frequency-response plots in `Figures/`.
-
-## Tools
+## Tools used
 
 LTspice, TL072 op-amps.
 
